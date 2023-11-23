@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+
+let arr=[1,2,3,4,5,6,7,8,9,10] ;
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[3]);
+console.log(arr[4]);
+console.log(arr[5]);
+console.log(arr[6]);
+console.log(arr[7]);
+console.log(arr[8]);
+console.log(arr[9]);
+//- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+let book1={
+    title: 'fantasy',
+    pageCount: 105,
+    genre:'fantazy'
+}
+let book2={
+    title: 'nomatter',
+    pageCount: 105,
+    genre:'any'
+}
+let book3={
+    title: 'somethingElse',
+    pageCount: 105,
+    genre:'something'
+}
+//- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
+let book1={
+    title: 'fantasy',
+    pageCount: 105,
+    genre:'fantazy',
+    authors : [name, age]
+
+}
+let book2={
+    title: 'nomatter',
+    pageCount: 105,
+    genre:'any',
+    authors : [name, age]
+}
+let book3={
+    title: 'somethingElse',
+    pageCount: 105,
+    genre:'something',
+    authors : [name, age]
+}
+//- Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+let username=[[{}][{}][{}][{}][{}][{}][{}][{}][{}][{}]];
+let usernameData={
+   name,
+   username,
+   password
+}
+console.log(username[0].password, username[1].password,username[2].password,username[3].password,username[4].password,username[5].password,username[6].password,username[7].password,username[8].password,username[9].password);
+//- Є змінна х, якій ви надаєте довільне числове значення.
+//Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
+let x=10;
+let a=1;
+let a=0;
+let a= -3;
+a=x;
+//другу частину завдання погано зрозуміла то ж написала за принципом 'я художнік-я так бачу;))'
+if(x!=0){
+    console.log('Вірно')
+}
+else{
+   console.log('Невірно')
+}
+//- Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
+//(в першу, другу, третю или четверту частину години).
+
+let time = x;
+if (time>0 && time<15){
+    console.log("перша")
+}
+else if(time===16 && time<30){
+    console.log("друга")
+}
+
+else if(time===31 && time<45){
+    console.log("третя")
+}
+
+else if(time===46 && time<60){
+    console.log("четверта")
+}
+//- У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
+
+let number=x;
+if(number>1 && number<10){
+    console.log("перша декада")
+}
+else if(number===11 && number<20){
+    console.log("друга декада")
+}
+else if(number===21 && number<32){
+    console.log("третя декада")
+}
+//Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
+let DayOfTheWeek= "any";
+switch (DayOfTheWeek){
+    case 'first':
+        console.log(Monday);
+        break;
+    case 'second':
+        console.log(Tuesday);
+        break;
+    case 'third':
+        console.log(Wednesday);
+        break;
+    case 'fourth':
+        console.log(Thursday);
+        break;
+    case 'fifth':
+        console.log(Friday);
+        break;
+    case 'sixth':
+        console.log(Saturday);
+        break;
+    case 'seventh':
+        console.log(Sunday);
+        break;
+
+}
+//- Користувач вводить або має два числа.
+    //Потрібно знайти та вивести максимальне число з тих двох .
+    //Також потрібно врахувати коли введені рівні числа.
+let first=x;
+let second=z;
+let max=any;
+if(first>second){
+    console.log(first)
+}
+else if (first===second){
+    console.log(equal)
+}
+else {
+    console.log(second)
+}
+//- є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
+//за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)
+let x = null;
+if (x===0 || x===false){
+    console.log("default")
+}
+
+</script>
+
+
+</body>
+</html>
